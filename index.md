@@ -34,14 +34,12 @@ And run 'make workshop-check' *before* committing to make sure that changes are 
 {% comment %}
 For a workshop please delete the following block
 {% endcomment %}
-<div class="alert alert-danger">
-This is the workshop template. Delete these lines and use it to customize your
-own website. If you are running a self-organized workshop or have not put in a
-workshop request yet, please also fill in 
-<a href="{{site.amy_site}}/submit">this workshop request form</a> to let us know
-about your workshop and our administrator may contact you if we need any extra
-information.
-</div>
+
+
+<h2 id="register">Registration Information</h2>
+
+<p> <a href='https://outlibrary.co1.qualtrics.com/jfe/form/SV_eexxkUoFoPrkGAR'>Registration</a> for this workshop is <a href='https://outlibrary.co1.qualtrics.com/jfe/form/SV_eexxkUoFoPrkGAR'>required</a>. Any questions regarding registation and/or the workshop can be sent to the contacts listed below. </p>
+
 
 {% if page.carpentry != site.carpentry %}
 <div class="alert alert-warning">
@@ -413,7 +411,7 @@ please preview your site before committing, and make sure to run
   </div>
 </div> {% comment %} End of 'shell' section. {% endcomment %}
 
-<div id="git"> {% comment %} Start of 'Git' section. GitHub browser compatibility
+<div id="git"> {% comment %} Start of 'Git' section. GitHub browser compatability
   is given at https://help.github.com/articles/supported-browsers/{% endcomment %}
   <h3>Git</h3>
   <p>
@@ -540,7 +538,7 @@ please preview your site before committing, and make sure to run
     </div>
   </div>
 </div> {% comment %} End of 'editor' section. {% endcomment %}
-
+<!-- 
 <div id="python"> {% comment %} Start of 'Python' section. Remove the third paragraph if
   the workshop will teach Python using something other than
   the Jupyter notebook.
@@ -638,7 +636,7 @@ please preview your site before committing, and make sure to run
   </p>
   {% endcomment %}
 </div> {% comment %} End of 'Python' section. {% endcomment %}
-
+ -->
 <div id="r"> {% comment %} Start of 'R' section. {% endcomment %}
   <h3>R</h3>
 
@@ -694,7 +692,7 @@ please preview your site before committing, and make sure to run
     </div>
   </div>
 </div> {% comment %} End of 'R' section. {% endcomment %}
-
+<!-- 
 <div id="sql"> {% comment %} Start of 'SQLite' section. {% endcomment %}
   <h3>SQLite</h3>
 
@@ -827,7 +825,7 @@ please preview your site before committing, and make sure to run
     </div>
   </div>
 </div> {% comment %} End of 'OpenRefine' section. {% endcomment %}
-
+ -->
 {% comment %}
 <div id="vm">
   <h3>Virtual Machine</h3>
